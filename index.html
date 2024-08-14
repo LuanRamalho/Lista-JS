@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Lista</h1>
+        <div class="input-group">
+            <label for="element">Elemento:</label>
+            <input type="text" id="element" placeholder="Digite um elemento">
+            <button onclick="addElement()">Adicionar</button>
+            <button onclick="removeElement()">Remover</button>
+        </div>
+        <div class="list-group">
+            <h2>Elementos da Lista:</h2>
+            <ul id="list"></ul>
+            <p id="count">Quantidade de elementos: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
